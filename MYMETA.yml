@@ -1,0 +1,55 @@
+---
+abstract: 'Tool for mitochondrial DNA.'
+author:
+  - 'Marty Brandon <mbrandon@uci.edu>'
+build_requires:
+  Test::More: 0
+configure_requires:
+  Module::Build: 0.36
+dynamic_config: 0
+generated_by: 'Module::Build version 0.3603'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Bio-Mitomaster
+provides:
+  Bio::Mitomaster:
+    file: lib/Bio/Mitomaster.pm
+    version: 0.10
+  Bio::Mitomaster::AASeq:
+    file: lib/Bio/Mitomaster/AASeq.pm
+    version: 0.10
+  Bio::Mitomaster::FastaIO:
+    file: lib/Bio/Mitomaster/FastaIO.pm
+    version: 0.10
+  Bio::Mitomaster::GenbankIO:
+    file: lib/Bio/Mitomaster/GenbankIO.pm
+    version: 0.10
+  Bio::Mitomaster::MitoSeq:
+    file: lib/Bio/Mitomaster/MitoSeq.pm
+    version: 0.10
+  Bio::Mitomaster::RNASeq:
+    file: lib/Bio/Mitomaster/RNASeq.pm
+    version: 0.10
+  Bio::Mitomaster::Seq:
+    file: lib/Bio/Mitomaster/Seq.pm
+    version: 0.10
+  Bio::Mitomaster::SeqIO:
+    file: lib/Bio/Mitomaster/SeqIO.pm
+    version: 0.10
+  Bio::Mitomaster::SeqManipRole:
+    file: lib/Bio/Mitomaster/SeqManipRole.pm
+    version: 0.10
+  Bio::Mitomaster::SpeciesRef:
+    file: lib/Bio/Mitomaster/SpeciesRef.pm
+    version: 0.10
+  Bio::Mitomaster::Types:
+    file: lib/Bio/Mitomaster/Types.pm
+    version: 0.10
+  Bio::Mitomaster::VariantsIO:
+    file: lib/Bio/Mitomaster/VariantsIO.pm
+    version: 0.10
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.10
